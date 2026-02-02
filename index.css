@@ -1,0 +1,122 @@
+/* This will style all <div> elements */
+article {
+background-color: rgb(253, 240, 240);
+padding: 10px;
+margin: 15px;
+padding: 10px;
+}
+
+
+/* This will style all <p> elements */
+p {
+color: rgb(0, 0, 0);
+font-size: 16px;
+margin: 35px;
+padding: 10px;
+}
+
+
+
+.testimonial {
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: #f8f8f38a;
+  color: rgb(0, 0, 0);
+}
+
+footer {
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: #0000008a;
+  color: rgb(255, 255, 255);
+}
+
+
+
+.brand {
+  font-weight: bold;
+  font-size: 3rem;
+  color: rgb(220, 38, 38);
+  text-align: justify;
+  justify-content: left;
+}
+
+
+.sidebar {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 15px;
+  float: left;
+  width: 200px;
+  display:flex;
+  gap: 52222rem;
+ 
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+   min-width: 12rem;
+
+}
+
+
+.sidebar ul li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: rgb(248, 111, 87);
+  color: black;
+  gap: 1rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.sidebar ul li:hover {
+  background-color: rgb(255, 228, 181);
+}
+
+.sidebar ul li:active{
+  background-color: rgb(253, 253, 252);}
+
+
+.navigation
+{  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+
+  display:flex;
+  justify-content: right;
+
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.navigation ul li {
+  float: left;
+}
+
+.navigation ul li a {
+  display: block;
+  color: rgb(27, 5, 5);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigation ul li a:hover {
+  background-color: #c56060;
+}
+
+
+.navigation-links {
+  color: black;
+  font-size: 18px;
+  margin-right: 20px;
+  text-decoration: none;
+}
