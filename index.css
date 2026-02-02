@@ -1,20 +1,16 @@
-/* This will style all <div> elements */
 article {
 background-color: rgb(253, 240, 240);
-padding: 10px;
-margin: 15px;
-padding: 10px;
+padding: 1rem;
+margin: 1rem;
 }
 
 
-/* This will style all <p> elements */
 p {
 color: rgb(0, 0, 0);
 font-size: 16px;
-margin: 35px;
-padding: 10px;
+margin: 1rem;
+padding: 1rem;
 }
-
 
 
 .testimonial {
@@ -47,17 +43,16 @@ footer {
   padding: 10px;
   margin: 15px;
   float: left;
-  width: 200px;
-  display:flex;
-  gap: 52222rem;
- 
+  width: 200px; 
 }
 
 .sidebar ul {
   list-style-type: none;
   padding: 0;
-   min-width: 12rem;
-
+  min-width: 12rem;
+  display:flex;
+  flex-direction: column;
+  gap:0.1rem;
 }
 
 
@@ -83,10 +78,20 @@ footer {
   padding: 0;
   overflow: hidden;
   background-color: #ffffff;
-
-  display:flex;
   justify-content: right;
 
+}
+
+main{
+    flex:1;
+    flex-grow: 1;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .navigation ul {
@@ -95,6 +100,9 @@ footer {
   padding: 0;
   overflow: hidden;
   background-color: #ffffff;
+  display:flex;
+  justify-content: right;
+  gap: 0.2rem;
 }
 
 .navigation ul li {
